@@ -150,16 +150,14 @@ nav
 	margin-right: 30px;
 }
 .sec-sec:hover{
-	color: #4BB570;
-	opacity: .7;
-	filter: invert(320);
-	border-radius: 15px;
-	transition: ease 1s filter;
+	border-radius: 8px;
 }
-
+.flex-link{
+font-size: 0;
+line-height: 0;
+}
 .list-but{
 	margin: 50px 0 55px 0;
-	/*margin: 0 auto;*/
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
@@ -257,24 +255,23 @@ nav
 /******************fourth-section*********************/
 .fourth-section{
 	height: 567px;
-	margin: 0 615px;
+	
 }
 
 .contact{
 	display: block;
-	/*margin: 0 auto;*/
 	text-align: center;
 	font-family: 'big_johnregular';
 	color: #59C47F;
 	text-transform: uppercase;
-	/*font-weight: 800;*/
 	font-size: 26px;
 }
 form{
 	display: block;
-	/*width: 800px;*/
+	width: 800px;
 	margin: 0 auto;
 	text-align: center;
+	font-size: 0;
 }
 
 input{
@@ -291,24 +288,26 @@ input{
 
 .form-control1 {
 	background-image: url('../foliac-assets/icon-user.png');   
-	width: 38%;
+	width: 400px;
 	margin-right: 20px;
 	padding-left: 50px;
+	display: inline-block;
 	color: #000;
 	font-size: 26px;
 }
 .form-control2 {
 	background-image: url('../foliac-assets/icon-email.png');   
-	width: 53%;
-	padding-left: 50px;
+	width: 320px;
+	display: inline-block;
 	color: #000;
 	font-size: 26px;
 }
 .form-control3 {
 	background-image: url('../foliac-assets/icon-message.png');   
 	width:100%;
+	display: inline-block;
 	height: 222px;
-		padding-left: 50px;
+	/*	padding-left: 50px;*/
 	color: #000;
 	font-size: 26px;
 }
@@ -321,12 +320,14 @@ input{
 	display: -o-flex;
 	display: flex;
 	height: 200px;
-	margin: 0 auto;
-
-	/*width: 1920px;*/
+	width: 1920px;
 	background-color: #3c4955;	
 	-ms-align-items: center;
 	align-items: center;
+}
+.footer a{
+	text-decoration: none;
+	color: #fff;
 }
 .addr{
 	margin-left: 390px;
