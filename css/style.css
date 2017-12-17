@@ -1,15 +1,15 @@
 /*dev*/
 @font-face {
 	font-family: 'big_johnregular';
-	src: url('bigjohn-webfont.woff2') format('woff2'),
-	url('bigjohn-webfont.woff') format('woff');
+	src: url('../fonts/webfontkit-20171215-143306/bigjohn-webfont.woff2') format('woff2'),
+	url('../fonts/webfontkit-20171215-143306/bigjohn-webfont.woff') format('woff');
 	font-weight: bold;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'slim_joeregular';
-	src: url('slimjoe-webfont.woff2') format('woff2'),
-	url('slimjoe-webfont.woff') format('woff');
+	src: url('../fonts/webfontkit-20171215-143359/slimjoe-webfont.woff2') format('woff2'),
+	url('../fonts/webfontkit-20171215-143359/slimjoe-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 
@@ -29,7 +29,7 @@ body, html{
 	background-image: url(../foliac-assets/background.jpg);
 	height: 650px;
 	margin: 0 auto;
-	width: 1920px;
+	/*width: 1920px;*/
 }
 .head-line{
 	/*display: inline-block;*/
@@ -66,7 +66,7 @@ nav{
 }
 .nav-item::after{
 	content: '/';
-	padding: 0 55px;
+	padding: 0 36px;
 	color: #58626a;
 }
 .nav-item:last-child::after{
@@ -313,7 +313,8 @@ input{
 	display: flex;
 	height: 200px;
 	margin: 0 auto;
-	width: 1920px;
+
+	/*width: 1920px;*/
 	background-color: #3c4955;	
 	-ms-align-items: center;
 	align-items: center;
@@ -321,4 +322,7 @@ input{
 .addr{
 	margin-left: 390px;
 	margin-right: 450px;
+}
+.social{
+		padding-left: 400px;
 }
